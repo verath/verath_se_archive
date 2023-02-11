@@ -5,3 +5,8 @@ This repository contains unmodified code from my greatest childhood achievement.
 The website was created sometime during 2007-2008.
 
 Code quality is pretty much A+ enterprise level.
+
+
+It looked something like this:
+
+![](pics/history/verath.se.2008-09-04.png)
