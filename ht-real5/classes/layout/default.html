@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+   <head>
+      <title>{TITLE}</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+      <link href="styles/main.css" rel="stylesheet" type="text/css" />
+      <link href="styles/forum.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="scripts/clock.js"></script>
+      <script type="text/javascript" src="scripts/jquery-1.3.2.min.js"></script>
+      <script type="text/javascript" src="scripts/jquery.qtip-1.0.0-rc2.min.js"></script>
+      
+      <script type="text/javascript">
+      $(document).ready(function() 
+      {      
+	      $('#logout').qtip(
+	  	   {
+	         content: 'You can\'t logout, you are traped here!',
+            position:{corner:{
+                  target: 'bottomLeft',
+                  tooltip: 'topRight'
+            }},
+            show: 'click',
+            hide: 'blur',
+		      style: 'mystyle'  	           
+	      });
+      });
+      </script>
+   </head>
+   <body onload="update_clock(); setInterval('update_clock()', 59000 )">
+	   <div id="center">
+	      <div id="pageContainer">
+	         <div id="topbar">
+	            <span class="clock" id="clock">
+	            00:00 AM
+	            </span>
+	            <span class="logedin">
+	               <a href="profile.php">Profile</a> | <a id="logout" style="color: #666;" onclick="return false;" href="">Logout</a>
+	            </span>
+	         </div>
+	         <div id="header">
+	            <div id="logo"></div>
+	            <div id="menu">
+	               {MENU}
+	            </div>
+	         </div>
+	         <div id="content">
+	            {CONTENT}
+	         </div>
+	      </div>
+	   </div>
+      <div id="bottomFrame">
+         <p style="color: #AFFF9C;">Copyright Someone? &copy; 2009.</p>
+         <p style="font-size: small">Thanks to all the members of the ht-real5 project at google code<br />
+         and <a href="http://www.grsites.com/textures/">grsites.com</a> for the background!</p>
+      </div>
+   </body>
+</html>

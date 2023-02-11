@@ -1,0 +1,5 @@
+/*Guestbook Inläggs seperator*/
+.guestbook_sep {width:675px; float:left; margin: 5px 0 0 5px; padding: 5px 5px 5px 5px; font: 11px Verdana, Helvetica, sans-serif; border: 1px dashed #FF0000; background: #DDFA69; /*background: #F9FA7B;*/}
+.guestbook_sep1 {width:675px; float:left; margin: 5px 0 0 5px; padding: 5px 5px 5px 5px; font: 11px Verdana, Helvetica, sans-serif; border: 1px dashed #0000FF; /*background: #DAFB55;*/}
+.guestbook_del {width:675px; float:left; margin: 5px 0 0 5px; padding: 5px 5px 5px 5px; font: 11px Verdana, Helvetica, sans-serif; border: 1px solid #FF0000; background: #FFFFFF;}
+#guestbook_insert {width: 500px; float:left; margin: 5px 0 0 5px; padding: 5px 5px 5px 5px;}

@@ -1,0 +1,101 @@
+body {font: 11px Verdana, Arial, Helvetica, sans-serif;background: url(pics/background.gif) repeat-x;}
+textarea{font: 11px Verdana, Arial, Helvetica, sans-serif;}
+h1 {font: normal 25px Verdana; color: #000000; margin: 0; letter-spacing: 3px; }
+.head { background-color: #3399FF; width:100%; border: solid 1px #3399FF; }
+/* omslutande box som innehåller övriga boxar  */
+#sidlayout { float: left; width: 1024px; margin: 0 0 0 0; padding: 5px 0 5px 5px; color:#000000;}
+/* sidans innehåll */
+#guestbook_meny {float: left; width: 700px; margin: 0 0 0 0; padding: 5px 10px 10px 10px; line-height: 20px; height: 100%;/* background-color: #FFFFFF;*/ border-top: dashed 1px #000000; border-left: solid 1px #000000;}
+
+#content_container {float: left; width: 720px; margin: 0 0 0 0;line-height: 20px; background-color: #FFFFFF; height: 100%; margin-bottom: 60px; border:3px solid #0d95fe;}
+#content {float: left; width: 700px; margin: 0 0 0 0; padding: 5px 10px 10px 10px;line-height: 20px; height: 100%; }
+/*border-left: solid 1px #FF0000; border-top: dashed 2px #FF0000;*/
+
+/* sidans länkar */
+a:link {color: #ff0000; text-decoration: none;}
+a:visited {color: #FF0000; text-decoration: none;}
+a:active {color: #ff0000; text-decoration: none;}
+a:hover {color:#FF6300;}
+
+#bottom_frame {
+float: left;
+width:730px;
+display: block;
+margin-left:214px;
+padding: 5px 10px 10px 10px;
+color:#000000;
+}
+#btn_txt {
+  width: 400px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+}
+.right{
+  float: left;
+  margin: 0 0 0 50px;
+  padding: 5px 0 5px 5px;
+  width: 150px;
+}
+.left{
+padding: 5px 0 5px 5px;
+  float: left;
+  width: 150px;
+}
+
+.ImageContainer
+{
+float:right;
+width:200px;
+max-height:230px;
+overflow:hidden;
+}
+
+.FirstPageImageContainer
+{
+float:none;
+padding: 3px 3px 3px 3px;
+width: 655px;
+height: 175px;
+margin-left: auto;
+margin-right:auto;
+overflow:hidden;
+}
+
+.FirstPageImage
+{
+float:left;
+margin-left: 5px;
+margin-right:5px;
+width: 152px;
+height: 174px;
+text-align:center;
+}
+
+.StatusLeft
+{
+position:absolute;
+margin-top:50px;
+top: 350px;
+left: 18px;
+padding: 4px 4px 4px 4px;
+width: 174px;
+min-height: 30px;
+border:#000000 2px dashed;
+}
+
+.userContainer
+{
+float:left;
+width: 680px;
+height: 74px;
+margin-top:10px;
+}
+.userImg
+{
+float:left;
+overflow:hidden;
+width: 120px;
+height: 72px;
+margin-right:10px;
+}

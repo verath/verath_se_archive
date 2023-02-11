@@ -1,0 +1,664 @@
+# Webalizer V2.01-10 Incremental Data - 11/16/2008 01:55:14
+2008 11 16 1 55 14
+1696 1218 67 95 38 35 12578988 589 191 0
+3 5 300 1 16
+49 31 190918 7 21 9
+339 274 2845372 8 128 13
+49 40 422395 9 23 15
+45 32 627342 6 36 13
+76 43 628668 8 27 9
+91 54 526212 11 48 29
+66 55 714067 4 28 16
+70 60 880311 6 17 11
+93 82 475132 6 29 11
+326 131 1159042 7 92 12
+58 50 602903 8 21 12
+31 24 295358 5 11 7
+85 65 493654 7 31 12
+49 44 694407 7 8 5
+257 225 1992418 8 62 14
+12 8 30789 3 7 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+15 10 54169 9
+21 17 101846 14
+16 10 71118 8
+22 14 82219 16
+25 19 172339 16
+17 10 553384 8
+11 8 55086 10
+12 9 49256 8
+19 17 93180 15
+5 2 27132 2
+266 230 1823802 74
+61 32 375652 20
+96 87 1031004 22
+91 68 838328 28
+50 36 368578 31
+43 32 437577 17
+88 79 946761 20
+57 47 584929 19
+237 183 1685181 99
+68 49 583709 19
+25 22 262665 7
+55 46 580470 18
+383 181 1743585 100
+13 10 57018 9
+0
+0
+0
+1218
+0
+0
+0
+0
+0
+4
+0
+56
+197
+0
+205
+0
+0
+16
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/forum/
+0 5 0 21893 2 0
+/meny.css
+0 44 0 59696 0 0
+/
+0 134 0 1267542 55 19
+/kul/pics/html_editor.png
+0 2 0 24734 0 0
+/forum/forum.css
+0 3 0 9105 0 0
+/UserImages/Verath.bmp
+0 44 0 726300 0 0
+/UserImages/taliban.bmp
+0 3 0 92568 0 0
+/kul/yourInfo.php
+0 2 0 17625 0 0
+/pics/Forum_Title.png
+0 1 0 2631 0 0
+/links/
+0 20 0 126985 3 5
+/pics/verathTop.png
+0 44 0 139496 0 0
+/pics/Offline.png
+0 2 0 426 0 0
+/kul/
+0 9 0 58187 0 0
+/script/FindNames.js
+0 3 0 2100 0 0
+/desc/
+0 10 0 56293 5 2
+/game/guess.php
+0 2 0 14180 0 0
+/kul/pics/yourInfo.png
+0 2 0 32690 0 0
+/UserImages/sebbesoder.bmp
+0 3 0 161742 0 0
+/script/chkC.js
+0 43 0 12040 0 0
+/forum/pics/glad.png
+0 2 0 6206 0 0
+/UserImages/Annnie.bmp
+0 5 0 73700 0 0
+/not_found/
+0 121 0 531007 48 18
+/newuser/
+0 11 0 61661 1 3
+/msg/
+0 40 0 194915 18 25
+/script/UpdateOnline.js
+0 6 0 4320 0 0
+/pics/save.png
+0 2 0 2196 0 0
+/script/UpdateInfo.js
+0 6 0 6456 0 0
+/UserImages/Freddan.bmp
+0 4 0 336060 0 0
+/forum/showPost.php
+0 6 0 46030 0 0
+/msg/msg.css
+0 3 0 2769 0 0
+/game/spel.php
+0 1 0 8620 0 0
+/UpdateInfo.php
+0 19 0 95 0 0
+/saveCookie.php
+0 2 0 10 0 0
+/forum/pics/sur.png
+0 1 0 3125 0 0
+/kul/history/history.css
+0 1 0 0 0 0
+/pics/history/awardspace.Guestbook.png
+0 2 0 103064 0 0
+/pics/history/verath.se.Guestbook.2008-08.png
+0 1 0 0 0 0
+/msg/send.php
+0 2 0 8099 0 0
+/layout.css
+0 44 0 70412 0 0
+/pics/menuTop/Logout.png
+0 6 0 18342 0 0
+/pics/history/verath.se.2008-09-04.png
+0 1 0 0 0 0
+/kul/history/
+0 5 0 37295 3 1
+/kul/pics/guess.png
+0 2 0 37690 0 0
+/pics/menuTop/Meddelanden.png
+0 6 0 10788 0 0
+/html_edit/
+0 6 0 31636 1 2
+/html_edit/print_it.php
+0 1 0 5 0 0
+/sitemap/
+0 1 0 5104 0 1
+/UpdateOnline.php
+0 43 0 215 0 0
+/script/AC_RunActiveContent.js
+0 1 0 3233 0 0
+/pics/Back1.gif
+0 44 0 311668 0 0
+/pics/loginPrompt.png
+0 42 0 53406 0 0
+/kul/pics/hacking.png
+0 2 0 12920 0 0
+/kul/pics/highscore.png
+0 2 0 18648 0 0
+/favicon.ico
+0 27 0 84402 0 0
+/rules/cookies.php
+0 4 0 20273 0 0
+/UserImages/Freddylinken.bmp
+0 42 0 2375006 0 0
+/search/
+0 20 0 183667 4 4
+/pics/close.png
+0 43 0 9296 0 0
+/pics/history/verath.se.2008-08-17.Forum.png
+0 1 0 0 0 0
+/pics/history/awardspace.com-index.png
+0 2 0 451441 0 0
+/set_cookie.php
+0 13 0 6678 0 0
+/highscore.php
+0 7 0 40105 0 0
+/guestbook/
+0 16 0 132002 4 3
+/guestbook/guestbook.css
+0 3 0 2088 0 0
+/UserImages/Elefant.bmp
+0 14 0 646644 0 0
+/quiz/
+0 7 0 38211 2 2
+/kul/pics/musspelet.png
+0 2 0 56398 0 0
+/UserImages/GoogleBotSearch.bmp
+0 13 0 291732 0 0
+/newuser/randomImage2.php
+0 1 0 1228 0 0
+/pics/close_hover.png
+0 4 0 842 0 0
+/pics/Online.png
+0 1 0 333 0 0
+/kul/pics/history.png
+0 2 0 188842 0 0
+/desc/changeColor.php
+0 2 0 10643 0 0
+/pics/menuTop/Change.png
+0 6 0 6600 0 0
+/game/Guess.swf
+0 1 0 12441 0 0
+/img/randomImage2.php
+0 1 909520236 1544 0 0
+/UserImages/daenil.bmp
+0 6 0 11940 0 0
+/UserImages/Martin.bmp
+0 8 0 142662 0 0
+/UserImages/Alte.bmp
+0 37 0 573884 0 0
+/clouds.css
+0 43 0 8736 0 0
+/pics/history/verath.se.2008-08-03.png
+0 2 0 154516 0 0
+/script/DeleteMsg.js
+0 2 0 1774 0 0
+/kul/pics/quiz.png
+0 2 0 30808 0 0
+/addon/
+0 11 0 6166 9 3
+/UserImages/Anna Ljungberg.bmp
+0 5 0 23665 0 0
+/game/spel.swf
+0 5 0 72400 0 0
+/rules/
+0 1 0 6110 1 1
+/UserImages/Errors/no.bmp
+0 38 0 920704 0 0
+/pics/input_back.png
+0 1 0 537 0 0
+/desc/style/personal.php
+0 57 0 4902 0 0
+/game/
+0 6 0 6840 1 2
+/pics/SendMessage.png
+0 1 0 1665 0 0
+/sitemap.xml
+0 14 0 9018 0 0
+/desc/desc_show/
+0 107 0 615550 24 30
+/pics/cloud0.png
+0 32 0 257572 0 0
+# End Of Table - urls
+# -sites- (monthly)
+h-105-145.a226.priv.bahnhof.se
+0 17 16 236841 1 1225999103
+/not_found/
+94.102.49.85
+0 1 1 566 1 1225537038
+/addon/
+llf520105.crawl.yahoo.net
+0 4 2 19986 1 1225724522
+/
+cust-ip-11.data.tre.se
+0 17 8 54297 1 1225577760
+/not_found/
+llf531129.crawl.yahoo.net
+0 3 1 5083 1 1226721073
+-
+crawl-3.cuill.com
+0 66 33 285196 28 1226517124
+/msg/
+llf520019.crawl.yahoo.net
+0 8 5 25546 2 1225767307
+/links/
+81-225-184-226-o285.telia.com
+0 66 61 318352 1 1226225459
+/
+llf531039.crawl.yahoo.net
+0 3 2 14033 1 1225691356
+/
+91.205.124.4
+0 19 10 68563 2 1226244406
+/
+llf520167.crawl.yahoo.net
+0 7 5 37822 3 1226325827
+/
+llf531079.crawl.yahoo.net
+0 4 1 12790 1 1226769414
+-
+89-149-253-102.internetserviceteam.com
+0 2 2 1132 2 1225850948
+/addon/
+llf531207.crawl.yahoo.net
+0 6 2 35862 1 1225574398
+/
+91-67-216-202-dynip.superkabel.de
+0 2 1 9769 1 1225978577
+/
+llf531359.crawl.yahoo.net
+0 7 5 37452 3 1225594381
+/
+llf520032.crawl.yahoo.net
+0 4 2 20896 1 1226463863
+/
+c-a301e555.07-137-626f721.cust.bredbandsbolaget.se
+0 1 1 1544 0 0
+-
+llf520050.crawl.yahoo.net
+0 3 1 4858 1 1225941534
+-
+81-234-92-128-no91.tbcn.telia.com
+0 21 18 254833 1 1225922409
+/
+80.251.192.3
+0 15 3 17190 1 1225976751
+/not_found/
+llf520087.crawl.yahoo.net
+0 4 2 14400 1 1225898728
+/search/
+84-216-32-232.sprayadsl.telenor.se
+0 555 335 3214680 10 1226768252
+/not_found/
+64.211.93.41
+0 2 2 7427 1 1225999102
+/not_found/
+64.211.93.42
+0 1 1 9487 1 1225999101
+/
+crawl-66-249-65-243.googlebot.com
+0 225 196 2036173 70 1226797952
+/msg/
+llf520098.crawl.yahoo.net
+0 3 2 14173 1 1225941536
+/search/
+h86n2-g-ho-a11.ias.bredband.telia.com
+0 38 34 320866 1 1226592499
+/desc/desc_show/
+ua-85-224-255-130.cust.bredbandsbolaget.se
+0 32 29 554153 1 1226754888
+/newuser/
+llf531354.crawl.yahoo.net
+0 3 2 10579 1 1226721075
+/newuser/
+llf531358.crawl.yahoo.net
+0 3 2 10620 1 1225672601
+/desc/desc_show/
+llf520121.crawl.yahoo.net
+0 3 1 4857 1 1225767305
+-
+llf520132.crawl.yahoo.net
+0 5 3 31046 2 1226367358
+/
+llf520154.crawl.yahoo.net
+0 8 4 35838 3 1225973255
+/
+208.80.194.26
+0 1 1 9459 1 1225651074
+/
+208.80.194.28
+0 1 1 9459 1 1225891298
+/
+89-149-220-56.internetserviceteam.com
+0 1 1 554 1 1225747914
+/addon/
+208.80.194.31
+0 1 1 9459 1 1226010584
+/
+208.80.194.33
+0 1 1 9564 1 1226250278
+/
+208.80.194.34
+0 1 1 9821 1 1226365318
+/
+208.80.194.37
+0 2 2 18918 2 1226143246
+/
+208.80.194.38
+0 1 1 9981 1 1226592089
+/
+llf520057.crawl.yahoo.net
+0 5 3 16747 2 1226154185
+/kul/
+208.80.194.44
+0 1 1 9821 1 1226399662
+/
+208.80.194.46
+0 1 1 10091 1 1226705164
+/
+llf520183.crawl.yahoo.net
+0 3 2 5474 1 1226597384
+/addon/
+90-227-31-219-no91.tbcn.telia.com
+0 84 50 714233 1 1225649849
+/kul/
+90-229-203-53-no150.tbcn.telia.com
+0 124 114 857572 1 1225649148
+/desc/desc_show/
+89-149-253-223.internetserviceteam.com
+0 1 1 554 1 1225777550
+/addon/
+90-224-165-103-no123.tbcn.telia.com
+0 7 7 28561 1 1226614852
+/quiz/
+84-216-35-248.sprayadsl.telenor.se
+0 187 170 2285726 7 1226183920
+/not_found/
+llf531346.crawl.yahoo.net
+0 4 2 8437 1 1225555138
+/forum/
+c9538f0d.virtua.com.br
+0 1 1 14480 0 0
+-
+217.28.207.226
+0 16 15 234291 1 1226405538
+/not_found/
+llf520027.crawl.yahoo.net
+0 3 2 14004 1 1226179596
+/
+c-71-56-218-189.hsd1.co.comcast.net
+0 1 1 566 1 1225989278
+/addon/
+llf531047.crawl.yahoo.net
+0 4 3 21210 1 1226785684
+/desc/desc_show/
+194.165.42.51
+0 34 10 148543 1 1225883576
+/
+194.165.42.59
+0 1 1 566 1 1225897972
+/addon/
+llf531050.crawl.yahoo.net
+0 3 2 10125 1 1226685776
+/not_found/
+llf531173.crawl.yahoo.net
+0 10 6 39584 2 1226797254
+/kul/
+llf520171.crawl.yahoo.net
+0 7 4 20928 3 1226378859
+/not_found/
+llf520085.crawl.yahoo.net
+0 4 2 14965 1 1226530364
+/search/
+212.247.53.108
+0 18 16 242744 1 1226068979
+/
+llf520096.crawl.yahoo.net
+0 7 3 24138 2 1226314599
+/not_found/
+ec2-75-101-191-190.compute-1.amazonaws.com
+0 1 1 10091 1 1226597696
+/
+e179028171.adsl.alicedsl.de
+0 2 2 41412 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+c-a301e555.07-137-626f721.cust.bredbandsbolaget.se
+0 1 1 1544 0 0
+-
+crawl-66-249-65-243.googlebot.com
+0 5 4 11316 2 1226797952
+/msg/
+llf531173.crawl.yahoo.net
+0 6 3 17929 1 1226797254
+/kul/
+# End Of Table - sites (daily)
+# -referrers- 
+http://marf.se/
+0 1
+http://verath.se/forum/forum.css
+1 1
+http://verath.se/msg/send.php
+1 2
+- (Direct Request)
+0 566
+http://verath.se/search/
+1 51
+http://verath.se/quiz/
+1 6
+http://verath.se/search/index.php
+1 28
+http://verath.se/kul/history/
+1 10
+http://verath.se/forum/
+1 3
+http://verath.se/game/spel.php
+1 1
+http://verath.se/newuser/
+1 1
+http://verath.se/links/
+1 14
+http://www.google.com.br/search
+0 1
+http://verath.se/layout.css
+1 32
+http://www.google.com/search
+0 2
+http://verath.se/set_cookie.php
+1 7
+http://majestic12.co.uk/bot.php
+0 1
+http://verath.se/html_edit/
+1 2
+http://verath.se/kul/
+1 22
+http://pussas.se/index.asp
+0 1
+http://www.google.se/search
+0 3
+http://verath.se/msg/
+1 12
+http://verath.se/guestbook/
+1 10
+http://verath.se/highscore.php
+1 1
+http://verath.se/desc/
+1 13
+http://verath.se/
+1 717
+http://verath.se/not_found/index.php
+1 2
+http://www.verath.se/layout.css
+1 1
+http://www.verath.se/meny.css
+1 1
+http://verath.se/forum/showPost.php
+1 19
+http://verath.se/clouds.css
+1 21
+http://verath.se/game/guess.php
+1 5
+http://verath.se/desc/changeColor.php
+1 4
+http://verath.se/addon/
+1 2
+http://www.verath.se/
+1 27
+http://verath.se/desc/desc_show/
+1 74
+http://verath.se/meny.css
+1 31
+http://www.verath.se/clouds.css
+1 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Hotba
+0 1
+Googlebot-Image/1.0
+0 17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; snprt
+0 1
+Mediapartners-Google
+0 37
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+0 3
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; {41DF8D20-
+0 1
+HTC_P3700 Opera/9.50 (Windows NT 5.1; U; en)
+0 32
+Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90)
+0 2
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET 
+0 24
+Yanga WorldSearch Bot v1.1/beta (http://www.yanga.co.uk/)
+0 19
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1
+0 3
+Mozilla/5.0 (Twiceler-0.9 http://www.cuil.com/twiceler/robot.
+0 66
+Mozilla/5.0 (Windows; U; Windows NT 6.0; sv-SE; rv:1.9.0.3) G
+0 559
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; {32097F53-
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1
+0 21
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)
+0 35
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; FunWe
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Sky Broadb
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 6.0; sv-SE; rv:1.8.1.17) 
+0 124
+Mozilla/5.0 (Windows; U; Windows NT 5.1; sv-SE; rv:1.9.0.4) G
+0 1
+Mozilla/5.0 (compatible; MJ12bot/v1.2.3; http://www.majestic1
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.co
+0 161
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.
+0 17
+Mediapartners-Google/2.1
+0 10
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SIMBAR={29
+0 1
+Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/
+0 128
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; {65697D43-
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+0 5
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NE
+0 50
+Mozilla/5.0 (Windows; U; Windows NT 6.0; sv-SE; rv:1.9.0.4) G
+0 95
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_5; sv-se) Appl
+0 38
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/5
+0 16
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; TheFr
+0 18
+Mozilla/5.0 (Windows; U; Windows NT 6.0; sv-SE; rv:1.8.1.16) 
+0 84
+Mozilla/5.0 (Windows; U; Windows NT 5.1; sv-SE; rv:1.8.1.17) 
+0 121
+# End Of Table - agents
+# -search strings- 
+frågesport med siffror
+1
+verath
+1
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

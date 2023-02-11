@@ -1,0 +1,182 @@
+body
+{
+   background: #919191;
+}
+
+a
+{
+   text-decoration: none;
+   color:#FF0000;
+}
+
+a:active
+{
+	outline: none;
+}
+
+a:focus
+{
+-moz-outline-style: none;
+}
+
+a:hover
+{
+   color: #CC1111;
+	text-decoration: underline;
+}
+
+.borderPic
+{
+   width:700px;
+}
+
+.pageContainer
+{
+	margin-left:auto;
+   margin-right:auto;
+	width: 1025px;
+}
+
+.content
+{
+   float:left;
+	margin-left: 5px;
+   width:700px;
+   height: 620px;
+}
+
+.contentContainer
+{
+   float:left;
+   width:700px;
+   margin-top:15px;
+   margin-bottom:15px;
+}
+
+.paging
+{
+   float:right;
+   margin-top:20px;
+   margin-right:15px;
+}
+
+
+.middleContent
+{
+   background-color: #f2f2f2;
+   height:523px;
+   width: 670px;
+   float:left;
+   padding-left:15px;
+   padding-right:15px;
+}
+
+.titleContent
+{
+   float:none;
+   display: block;
+   color: #888888;
+   font-size: 35px;
+	padding-bottom: 5px;
+   border-bottom: 1px solid black;
+}
+
+.titleContent:first-letter
+{
+   color:#000000;
+   font-weight: bold;
+}
+
+/* FORUM STYLE */
+.forumCategories {
+	width:540px;
+	float:none;
+	margin-right:auto;
+	margin-left:auto;
+	overflow:hidden;
+	background: #FFFFFF;
+	border: solid 1px black
+}
+
+.forumCategories .title {
+	width:540px;
+	float:left;
+	margin-left: 3px;
+	margin-top: 3px;
+	
+}
+
+
+.forumCategories  .cat{
+	float: left;
+	margin-left: 10px;
+	width: 530px;
+	padding: 3px 3px 3px 3px;
+}
+
+.forumCategories  .cat a{
+	float: left;
+	font-size: 20px;
+}
+
+.forumCategories  .cat .catDesc{
+	margin-top: 2px;
+	float: left;
+	margin-left: 10px;
+}
+
+.forumAd {
+	float:left;
+	margin-top: 15px;
+	width: 160px;
+}
+
+
+/* Accordion */
+
+.accordion  {
+	width:540px;
+	float:none;
+	margin-right:auto;
+	border: 1px solid black;
+	list-style:none;
+	padding:0px;
+}
+.accordion div {
+	background-color: #FFFFFF;
+}
+
+.accordion .head {
+	outline: none;
+	cursor:pointer;
+	display:block;
+	padding:5px;
+	margin-top: 0;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	background-color: #F2F2F2;
+}
+.accordion p {
+	margin-bottom : 10px;
+	border: none;
+	text-decoration: none;
+	margin: 0px;
+	padding: 10px;
+}
+
+.accordion .head:focus
+{
+	-moz-outline-style: none;
+	outline: none;
+}
+
+.accordion .head:hover {
+	background-color: #E2E2E2;
+}
+.accordion .head.selected {
+	color: black;
+	background-color: #80cfe2;
+}
+

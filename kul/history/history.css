@@ -1,0 +1,12 @@
+.HighZImgContainer
+{
+z-index:50;
+background:#FFFFFF;
+position:absolute;
+top:50px;
+left:100px;
+right:100px;
+height: 700px;
+width: 1120px;
+overflow:hidden;
+}

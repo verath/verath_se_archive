@@ -1,0 +1,132 @@
+body
+{
+   background: #919191;
+}
+
+a
+{
+   text-decoration: none;
+   color:#FF0000;
+}
+
+a:hover
+{
+   color: #CC1111;
+}
+
+
+
+.borderPic
+{
+   width:700px;
+}
+
+.content
+{
+   float:none;
+   margin-left:auto;
+   margin-right:auto;
+   width:700px;
+   height: 700px;
+}
+
+.contentContainer
+{
+   float:left;
+   width:700px;
+   margin-top:15px;
+   margin-bottom:15px;
+}
+
+.paging
+{
+   float:right;
+   margin-top:20px;
+   margin-right:15px;
+}
+
+
+.middleContent
+{
+   background-color: #f2f2f2;
+   height:600px;
+   width: 670px;
+   float:left;
+   padding-left:15px;
+   padding-right:15px;
+}
+
+.titleContent
+{
+   float:none;
+   display: block;
+   color: #888888;
+   font-size: 25px;
+   border-bottom: 1px solid black;
+}
+
+.titleContent:first-letter
+{
+   color:#000000;
+   font-weight: bold;
+}
+
+
+.imagesContainer
+{
+   width: 660px;
+   float:none;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+.imageRow
+{
+   width: 100%;
+   margin-top:15px;
+   margin-bottom:15px;
+   height: 150px;
+}
+
+.imageHolder, .imageHolderEmpty
+{
+   width:200px;
+   height: 150px;
+   margin-right: 10px;
+   margin-left: 10px;
+   float:left;
+   background:#f2f2f2;
+}
+
+.imageHolder:hover
+{
+   background: #000000;
+}
+
+
+.imageHolder img
+{
+   width: 194px;
+   max-height: 144px;
+   margin: 3px;
+   border: none;
+}
+
+
+
+.bigImageContainer
+{
+   width: 660px;
+   height: 489px;
+   float: none;
+   margin-top:20px;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+.bigImageContainer img
+{
+   width: 660px;
+   max-height:489px;
+}
+

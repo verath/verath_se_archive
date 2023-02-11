@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Glosor</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link href="mainLayout.css" rel="stylesheet" type="text/css" />		
+		<script type="text/javascript" src="config.js"></script>
+		<script type="text/javascript" src="functions.js"></script>
+	</head>
+	<body onkeypress="checkEnter(event)">
+		<div id="pageLayout">
+			<div id="contentContainer">
+				<div id="content">
+					<h2>Femtio engelska glosor från Lamb to the Slaughter</h2>
+					<p>Fyll i rätt ord till höger. Längst ner på sidan finns knappar för att rätta, visa rätta svaren och börja om.</p>
+					<script type="text/javascript">
+						document.write('<div class="glosaContainer">');
+						document.write('<div class="glosaLangRow"><div class="glosaLang1">'+langs[0]+'</div><div class="glosaLang2">'+langs[1]+'</div></div>');
+						
+						for (key in words)
+						{
+							document.write('<div class="glosaRow">');
+							document.write('<div class="glosa1">' + key +': </div>');
+							document.write('<div class="glosa2"><input type="text"  onfocus="clearField(this);show(\''+key+'Option\')" id="'+key+'" /></div>');
+							document.write('<div class="glosaOption" id="'+key+'Option"><input type="button" value="Rätta" onclick="checkAnsId(\''+key+'\')" /> <input type="button" value="Visa Svar" onclick="showAnsId(\''+key+'\')" /></div>');
+							document.write('</div>');
+						}
+						
+						document.write('<div id="bottomRow"><input type="button" onclick="checkAns()" value="Rätta Alla" /><br /><input type="button" style="margin-top:5px;" onclick="showAns()" value="Visa Alla Svar" /><br /><input type="button" style="margin-top:5px;" onclick="resetAns()" value="Töm Alla" /><p id="right"></p></div>');
+						document.write('<br style="clear:both" />');
+						document.write('</div>');
+					</script>
+				</div>
+				<div id="bottomFrame">
+					<span id="valid">
+						<a href="http://validator.w3.org/check?uri=referer">Valid XHTML</a> <a href="http://jigsaw.w3.org/css-validator/check/referer">Valid CSS 2.1</a>
+					</span>
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>

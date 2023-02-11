@@ -1,0 +1,49 @@
+body
+{
+	background: url(images/background.gif) repeat-x;
+}
+#pageLayout
+{
+	width:100%;
+}
+
+#contentContainer
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:55%;
+	float:none;
+	background:#FFF;
+	border:3px solid #0d95fe;
+}
+
+#content
+{
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+}
+
+.glosaContainer{margin-top:10px;width: 90%;margin-left:auto;margin-right:auto;float:none;}
+.glosaRow, .glosaLangRow{width:100%;float:left;height: 20px;margin-bottom:12px;}
+.glosaLangRow{font-weight:bold;}
+.glosaLang1, .glosaLang2, .glosa2, .glosa1, .glosaOption{width:33%;float:left;}
+.glosaOption{margin-left:1%; width:30%; padding-left:3%;display:none;}
+.glosaOption input{width:45%; background:none;}
+.glosaOption input:active{background:#AAA;border-left:1px solid black; border-top:1px solid black;}
+input{border:2px solid black;border-top:1px dashed black;border-left:1px dashed black; width:100%;}
+#bottomRow{margin-top:15px; width:100%; float:left;display:block;}
+#bottomFrame
+{
+	margin-top:10px;
+	width:98%;
+	padding: 1% 1% 1% 1%;
+	height: 15px;
+}
+#bottomFrame #valid{height: 15px;float:right;}
+#bottomFrame #valid a{font-size:small;text-decoration:none;color:green;}
+#bottomFrame #valid a:hover{text-decoration:underline;}
+
+
+

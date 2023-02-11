@@ -1,0 +1,5 @@
+<p>bara ett tips, ladda ner <a href="http://www.wartoft.nu/produkter/seterra/seterra.exe">settera (klicka här)</a>
+The <a href="../../highscore.php">Highscore</a> is even better! it does now saves more then one score... and it does also saves your name!
+Try click someones name in the guestbook or at the highscore. you will come to that persons info page!
+and don't forget to edit yours, click the "edit info" button in the right meny!<br></p>
+<p><strong>I've made an addon for Mozilla Firefox, it hides ads when visiting sites like Thepiratepay.org and Bilddagboken. You can download it <a href="/addon">Here!</a>.<br>Please send me feedback, <a href="mailto:warackta@gmail.com">warackta@gmail.com</a></strong></p>

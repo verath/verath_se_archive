@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<script type="text/javascript" src="scripts/ajax.js"></script>
+<script type="text/javascript">
+var chat;
+var msgField;
+var sendMsg;
+function addToChat()
+{
+   sendMsg=document.getElementById('msg').value;
+
+   chat=document.getElementById('chatFrame');
+	chat.innerHTML="";
+   chat.innerHTML+="<span class=\"you\">Du:</span> "+sendMsg+"<br />";
+   setTimeout('loadXMLDoc("botMain.php?msg="+sendMsg)',Math.random()*3000);
+
+   msgField=document.getElementById('msg');
+   msgField.value="";
+   msgField.focus();
+
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Chatbot - Beta</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onkeypress="{if (event.keyCode==13)addToChat()}">
+<div class="content" style="float:none; margin-left:auto; margin-right:auto; width:400px;">
+	<table style="float:left; width:400px; margin-top:15px;" cellspacing="0" cellpadding="0">
+		<tr><td><img src="pics/bordertop.gif" /></td></tr>
+		<tr><td style="background: #FFFFFF; height:200px; padding-left:15px; padding-right:15px;"><h2>Chatbot</h2>
+<p style="width:300px; height:150px;overflow:visible;padding:10px;font-size:18px;border:1px dashed black;" id="chatFrame"></p>
+<p>
+<input type="hidden" name="chat" id="chat" value=""/>
+<input type="text" name="msg" id="msg" style="width:200px;" />
+<input type="button" value="Skicka" onclick="addToChat()"/>
+</p></td></tr>
+		<tr><td><img src="pics/borderbtm.gif" /></td></tr>
+	</table>
+</div>
+</body>
+</html>

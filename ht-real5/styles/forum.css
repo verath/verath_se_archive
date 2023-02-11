@@ -1,0 +1,41 @@
+#forumPostsContainer
+{
+   width: 930px;
+   height: 500px;
+   background: #dedede; 
+}
+
+#forumHeadLoc
+{
+   height: 25px;
+   border-bottom: 2px solid #F42F84;
+   padding: 5px;
+   padding-bottom: 0px;
+}
+
+#content a
+{
+   color: #660463;
+   text-decoration: none;
+}
+#content a:hover
+{
+   text-decoration: underline;
+}
+
+#forumThreads
+{
+   padding: 5px;
+   height: 460px;
+}
+
+#forumBottomButtons
+{
+   margin-top: 5px;
+}
+
+img, a
+{
+   outline: none;
+   border: none;
+}

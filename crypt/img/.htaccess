@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)$ http://www.hackthis.co.uk/add.php?id=1808

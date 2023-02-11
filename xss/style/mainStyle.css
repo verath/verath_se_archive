@@ -1,0 +1,65 @@
+html
+{
+   background:    url(../images/background.gif);
+   height: 100%;
+}
+#contentContainer
+{
+   background:    #DDD;
+   width:         600px;
+   float:         none;
+   margin-left:   auto;
+   margin-right:  auto;
+   padding:       10px;
+   border:        1px solid black;
+}
+
+#title
+{
+   margin:        0;
+   padding:       0;
+   margin-bottom: 10px;
+   text-align:    center;
+}
+
+#help
+{
+   margin:        0;
+   padding:       0;
+}
+#help a
+{
+   text-decoration:none;
+   color:         red;
+   outline:       none;        
+}
+.helpTitle
+{
+   font-weight:   bold;
+}
+
+#submitedCode
+{
+   background:    white;
+   width:         90%;
+   border:        2px dashed red;
+   padding:       3px;
+}
+
+#contentContainer textarea
+{
+
+   width:         60%;
+   height:        100px;
+   padding:       3px;
+   margin-bottom: 4px;
+   
+   color:         black;
+   background:    #eee;
+   
+   border:        black 2px solid;
+   
+
+   font-family:   serif;
+   font-size:  	16px;
+}

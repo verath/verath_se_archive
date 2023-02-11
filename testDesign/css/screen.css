@@ -1,0 +1,184 @@
+html, body
+{
+   /* No margin */
+   margin: 0;
+   padding: 0;
+}
+body
+{
+   background: url(../images/background.jpg) repeat;
+}
+
+a{text-decoration: none; color: red; outline:none;}
+
+#pageContainer
+{
+   /* 950 width centered */
+   width: 950px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0;
+   float: none;
+   /* Box shadow */
+   -o-box-shadow: 0px 8px 10px #666;
+   -icab-box-shadow: 0px 8px 10px #666;
+   -khtml-box-shadow: 0px 8px 10px #666;
+   -moz-box-shadow: 0px 8px 10px #666;
+   -webkit-box-shadow: 0px 8px 10px #666;
+   box-shadow: 0px 8px 10px #666;
+
+}
+
+/*
+---------------------------------------------------------------------
+Header
+---------------------------------------------------------------------
+*/
+#header
+{
+   width: 950px;
+   height: 100px;
+   background: #FFFCDB;
+}
+
+#header #headerLogo
+{
+   width: 316px;
+   height: 100px;
+   float: left;
+   display: block;
+   margin-left: 5px;
+}
+/*
+---------------------------------------------------------------------
+END Header
+---------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------
+Menu 
+---------------------------------------------------------------------
+*/
+
+#header #menu
+{
+   width: 600px;
+   margin-left: 29px;
+   height: 100px;
+   float: left;
+   display: block;
+}
+
+#menu .menuItem
+{
+   line-height: 100px;
+   font-size: 30px;
+   letter-spacing: 1.5px;
+   text-transform: uppercase;
+   font-family: impact;
+   height: 100px;
+   width: 100px;
+   text-align: center;
+   float: left;
+}
+
+#menu .menuItem a
+{
+   display:block;
+   color: black;
+   height: 100px;
+   width: 100px;
+}
+
+#menu .menuItem a:hover
+{
+   text-decoration: underline;
+}
+/*#FF913D;*/
+#menu .menuItem a#selected
+{
+   -o-box-shadow: -2px -1px 1px #888;
+   -icab-box-shadow: -2px -1px 1px #888;
+   -khtml-box-shadow: -2px -1px 1px #888;
+   -moz-box-shadow: -2px -1px 1px #888;
+   -webkit-box-shadow: -2px -1px 1px #888;
+   box-shadow: 0px 8px 10px #666;
+}
+/* Color variation */
+#selected.var1{background: #3DFF5E;}#selected.var2{background: #C5FF3D;}#selected.var3{background: #FF913D;}#selected.var4{background: #FF3D3D;}
+#selected.var5{background: #FF3DB2;}#selected.var6{background: #423DFF;}
+
+/*
+---------------------------------------------------------------------
+END Menu
+---------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------
+Content
+---------------------------------------------------------------------
+*/
+#contentContainer
+{
+   width: 930px;
+   height: 520px;
+   padding: 10px;
+   display: block;
+   background-color: #3DFF5E;
+   
+   -o-box-shadow: 0px 1px 1px #888;
+   -icab-box-shadow: 0px -1px 1px #888;
+   -khtml-box-shadow: 0px -1px 1px #888;
+   -moz-box-shadow: 0px -2px 2px #888;
+   -webkit-box-shadow: 0px -1px 1px #888;
+}
+
+#content
+{
+   width: 910px;
+   float: left;
+   height: 420px;
+   background: white;
+   
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   
+   border: 0px solid white;
+   padding: 10px;
+   float: left;
+}
+
+#content p:first-child
+{
+   margin-top: 5px;
+   padding-top: 0;
+}
+
+#content .title
+{
+   font-size: 30px;
+   text-transform: uppercase;
+}
+/*
+---------------------------------------------------------------------
+END Content
+---------------------------------------------------------------------
+*/
+#fotter
+{
+   padding: 10px;
+   margin-top: 10px;
+   height: 46px;
+   width: 910px;
+   background: none;
+   text-align: center;
+   float: left;
+   
+	color: #000;
+   font-size: 22px;
+   line-height: 46px;
+   font-family: "tenby-eight-1","tenby-eight-2";
+}
+#contentTitle{
+   font-family: "bigfish-1","bigfish-2";
+}

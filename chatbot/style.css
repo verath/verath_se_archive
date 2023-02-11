@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+a
+{
+color:#FF0000;
+}
+a:hover
+{
+color:#FF8800;
+}
+a:visited:
+{
+color:#FF0000;
+}
+
+
+
+body
+{
+	font-size:16px;
+	background: #414141;
+}
+.menuLink a, .menuLink a:visited
+{
+	background:#FFFFFF;
+	color:#000000;
+	border-left:1px solid black;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	height:28px;
+	padding-top:12px;
+	padding-left:5px;
+	text-decoration:none;
+}
+.menuLink a#selected
+{
+	border-right:none;
+}
+.menuLink a:hover
+{
+	border-right:none;
+}
+
+.you
+{
+   color:red;
+}
+
+.bot
+{
+   color: blue;
+}

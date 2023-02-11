@@ -1,0 +1,34 @@
+body, html{
+   overflow: auto;
+}
+
+.contentText{
+   max-height: 400px;
+   overflow: auto;
+}
+
+#navHome{
+	bottom: 20px;
+}
+#navHow{
+   bottom: -420px;
+}
+#navAbout{
+	bottom: -840px;
+}
+#navFrom{
+   bottom: -1260px;
+}
+
+#contentHome{
+	bottom: 40px;
+}
+#contentHow{
+	bottom: -400px;
+}
+#contentAbout{
+   bottom: -820px;
+}
+#contentFrom{
+	bottom: -1240px;
+}

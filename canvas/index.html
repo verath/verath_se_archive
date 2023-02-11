@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Canvas game</title>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+      <script type="text/javascript">
+      var ctx;
+      var canvas;
+      var circles = new Array();
+      var redCircle;
+      var intervalDraw;
+      var score = 1;
+      var highscore = 0;
+      var colors = new Array("rgba(0, 174, 249, 0.95)", "rgba( 236, 0, 140, 0.95)", "rgba( 255, 242, 0, 0.95 )", "rgba(0, 255, 30, 0.95)", "rgba(255, 255, 0, 0.95)");
+
+      $(document).keydown(function(e){
+         switch(e.keyCode){
+            case 38:
+               // upp
+               redCircle.speed = {
+                  x: 0, 
+                  y: -2
+               };
+               break;
+            case 40:
+               // ner
+               redCircle.speed = {
+                  x: 0, 
+                  y: 2
+               };
+               break;
+            case 37:
+               // vänster
+               redCircle.speed = {
+                  x: -2, 
+                  y: 0
+               };
+               break;
+            case 39:
+               // höger
+               redCircle.speed = {
+                  x: 2, 
+                  y: 0
+               };
+               break;
+         }
+      });
+      
+      function circle( num, posx, posy, color ){
+         this.color = color ? color : colors[Math.floor(Math.random() * colors.length)];
+         this.angle = 0;
+         this.power = 2;
+         this.speed  = {
+            x: -2 + Math.random() * 4,
+            y: -2 + Math.random() * 4 
+         }
+         this.radius = 25;
+         if( posx && posy ){
+            this.pos    = {
+               x: posx,
+               y: posy
+            };
+         } else {
+            this.pos    = {
+               x: canvas.width/2,
+               y: canvas.height/2
+            };
+         }
+         
+         this._calcMove = function(){
+            this.pos = {
+               x: this.pos.x + this.speed.x,
+               y: this.pos.y + this.speed.y
+            }
+         }
+         
+         this._calcColl = function(){
+            // utanför scenen på x axeln, x < 0
+            if( this.pos.x < 0 + this.radius ){
+               this.pos.x = 0 + this.radius;
+               this.speed.x *= -1;
+               this.pos.x += this.speed.x;
+            }
+            // utanför scenen på y axeln, y < 0
+            if( this.pos.y < 0 + this.radius ){
+               this.pos.y = 0 + this.radius;
+               this.speed.y *= -1;
+               this.pos.y += this.speed.y;
+            }
+            // utanför scenen på x axeln, x > scenen
+            if( this.pos.x > canvas.width - this.radius ){
+               this.pos.x = canvas.width - this.radius;
+               this.speed.x *= -1;
+               this.pos.x += this.speed.x;
+            }
+            // utanför scenen på y axeln, y > scenen
+            if( this.pos.y > canvas.height - this.radius ){
+               this.pos.y = canvas.height - this.radius;
+               this.speed.y *= -1;
+               this.pos.y += this.speed.y;
+            }
+            // annan cirkel
+            var obj = redCircle;
+            if(this == obj){return true;}
+                           
+            if(this.pos.x + this.radius > obj.pos.x - obj.radius +10 &&
+               this.pos.x - this.radius < obj.pos.x + obj.radius -10 &&
+               this.pos.y + this.radius > obj.pos.y - obj.radius +10&&
+               this.pos.y - this.radius < obj.pos.y + obj.radius -10) {
+                  // die
+                  clearInterval(intervalDraw);
+                  clearInterval(intervalAddNew);
+                  ctx = null;
+                  canvas = null;
+                  circles = new Array();
+                  redCircle = null;
+                  if( score > highscore ){
+                     highscore = score;
+                     $("#highscore").text( "highscore: " + highscore );
+                  }
+                  
+                  score = 1;
+                  init();
+                  return "dead";
+                  /*
+                  this.angle     = Math.atan2( this.speed.y , this.speed.x );
+                  this.speed.x   = Math.cos( this.angle ) * this.power *-1;
+                  this.speed.y   = Math.sin( this.angle) * this.power *-1;
+                  
+                  this.pos.y += this.speed.y;
+                  this.pos.x += this.speed.x;*/
+                  
+                  /*
+                  this.angle     = Math.atan2( this.speed.y , this.speed.x );
+                  obj.angle      = Math.atan2( obj.pos.y  , obj.pos.x );
+                  this.speed.x   = Math.cos( (obj.angle/4 + this.angle)/2 ) * this.power *-1;
+                  this.speed.y   = Math.sin( (obj.angle/4 + this.angle)/2 ) * this.power *-1;
+                  obj.speed.x    = Math.cos( (obj.angle + this.angle/4)/2 ) * obj.power;
+                  obj.speed.y    = Math.sin( (obj.angle + this.angle/4)/2 ) * obj.power;
+                  
+                  this.pos.y += this.speed.y;
+                  this.pos.x += this.speed.x;
+                  obj.pos.y += obj.speed.y;
+                  obj.pos.x += obj.speed.x;*/
+                  
+            }
+            
+         }
+      }
+      
+      function addScore(){
+         score *= 1.001;
+         score += 1;
+         score = Math.round(score);
+         $("#score").text("score: " + score);
+      }
+      
+      function draw(){      
+         ctx.clearRect( 0 ,0 , canvas.width , canvas.height );
+         ctx.beginPath();
+         ctx.fillStyle = "#414042";
+         ctx.rect( 0, 0, canvas.width, canvas.height );
+         ctx.fill();
+         ctx.beginPath();
+         ctx.strokeStyle = "#000000";
+         ctx.arc( canvas.width-26, canvas.height-26, 25, 0, Math.PI*2, true );
+         ctx.stroke();
+         for( var i in circles ){
+            ctx.beginPath();
+         
+            var obj = circles[i];
+            ctx.fillStyle = obj.color;
+            obj._calcMove();
+            if( obj._calcColl() == "dead" ){break;};
+            ctx.arc( obj.pos.x , obj.pos.y, obj.radius, 0, Math.PI*2, true);
+            
+            ctx.closePath();
+            ctx.fill();
+            ctx.strokeStyle = "white";
+            ctx.stroke();
+         }
+      }
+      
+      function addNew(){
+         circles.push(new circle( null, 2000, 2000 ));
+      }
+      
+      function init(){
+         var wwidth  = 500;
+         var wheight = 500;
+         $("#main").css({width: wwidth, height: wheight});
+         canvas = {
+            width:   $("#main").width(),
+            height:  $("#main").height()
+         };
+         
+         ctx = $('#main')[0].getContext("2d");
+         redCircle = new circle( null, -2000, -2000, "#ea1c24" );
+         for( var i = 0; i < 4; i++ ){
+            circles[i] = new circle( i );
+         }
+         circles.push(redCircle);
+         
+         intervalDraw = setInterval("draw()", 50);
+         intervalAddNew = setInterval("addNew()", 5000);
+
+         
+      }
+      
+      $(document).ready(function(){
+         init();
+         setInterval("addScore()", 100);
+      });
+      </script>
+      <style type="text/css">
+         html{background: #231f20;}
+         .helvetica{font-family: Helvetica,Arial,sans-serif; font-weight: bold; font-size: 22px;}
+         .cyan{color: 	rgb(   0, 174, 249 );}
+         .magenta{color: rgb( 236,   0, 140 );}
+         .yellow{color: 	rgb( 255, 242,   0 );}
+         .white{color:#fff;}
+         .small{ font-size: 16px; }
+         #above{ width: 500px; float: left;}
+         #help p{margin-bottom:0; padding-bottom: 5px;}
+      </style>
+      
+   </head>
+   <body>
+      <div style="width: 500px; float: none; margin-left:auto; margin-right: auto;">
+         <div id="above"><span class="helvetica cyan small">Spel</a></div>
+         <div id="help"><p class="helvetica white small">Använd piltangenterna för att styra den röda cirkeln. Akta dig för de andra cirklarna.</p></div>
+         <canvas style="border: 1px solid white" id="main" height="500" width="500"></canvas>
+         <div id="score" class="helvetica magenta" style="float:left; width:250px;">score: 0</div>
+         <div id="highscore" style="float:right;width: 250px; text-align: right;" class="helvetica yellow"></div>
+         
+      </div>
+   </body>
+</html>

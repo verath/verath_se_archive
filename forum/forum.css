@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content a:hover {color:#FF0000;text-decoration: none;}
+
+.forum_right_list{
+float:left;
+display:none;
+width: 210px;
+background:url(../pics/newPost_Back.png) repeat-y right;
+padding: 3px 3px 3px 3px;
+border:#000000 dashed 1px;
+}
+
+.forum_kategori_top{
+float:left;
+background: #FFFFFF;
+border: #FF6600 1px solid;
+width:685px;
+padding: 5px 5px 5px 5px;
+}
+
+.forum_over_cat
+{
+height:20px;
+width: 560px;
+float:left;
+margin-left:2px;
+margin-top:4px;
+margin-bottom: 3px;
+background: #FFFFFF;
+border-bottom: #000000 1px solid;
+padding: 2px 2px 2px 2px;
+}
+
+.forum_kategori{
+width:500px;
+height:20px;
+float:left;
+margin-left:50px;
+margin-top:4px;
+background:#FFFFFF;
+border:#FF0000 1px solid;
+padding: 2px 2px 2px 2px;
+padding-left: 5px;
+}
+
+.forum_kategori:hover{
+background: #FFFFAA;
+}
+
+.forum_post_title{
+width:552px;
+float:left;
+margin-top:3px;
+background:url(../pics/InlaggTitle.png) repeat;
+border: 1px #000000 solid;
+padding: 3px 3px 3px 3px;
+height: 20px;
+}
+
+.forum_post_title:hover
+{
+background:url(../pics/InlaggDelete.png) repeat;
+}
+
+.forum_post_delete{
+width:552px;
+float:left;
+margin-top:3px;
+background:url(../pics/InlaggDelete.png) repeat;
+border: 1px #000000 solid;
+padding: 3px 3px 3px 3px;
+height: 20px;
+}
+
+.forum_post_title_container
+{
+margin-top: 5px;
+/*border:dashed 1px #000000;
+background:#ffffff;
+color:#FFFFFF;
+padding: 5px 5px 5px 5px;
+width: 400px;*/
+float:left
+}
+
+.forum_new_post_input
+{
+margin-top: 50px;
+padding: 5px 5px 5px 5px;
+width: 690px;
+float:left;
+background:url(../pics/input_back.png) repeat ;
+}
+
+.forum_new_post_input p{
+color:#000000;
+}
+
+.forum_post_top{
+float:left;
+background: #FFFFFF;
+border-top: #000000 1px dashed;
+width:600px;
+padding: 5px 5px 5px 5px;
+}
+
+.forum_post{
+float:left;
+width:630px;
+height:auto;
+padding: 3px 3px 3px 3px;
+border-bottom: 1px solid #000033;
+}
+
+.forum_post_deleted{
+float:left;
+background-color:#FFFFFF;
+/*background: url(../pics/Deleted.png) repeat;*/
+color: #880000;
+width:630px;
+padding: 3px 3px 3px 3px;
+border-bottom: 1px solid #000033;
+}
+
+.forum_post_right_deleted
+{
+padding-left: 4px;
+overflow: auto;
+width: 375px;
+float:left;
+margin-left:130px;
+}
+
+.forum_post_left
+{
+width: 125px;
+float:left;
+border-right:thin #000000 solid;
+}
+
+.forum_post_right
+{
+padding-left: 4px;
+padding-right: 4px;
+overflow: auto;
+max-height: 480px;
+width: 410px;
+float:left;
+margin-left:5px;
+margin-bottom: 50px;
+}
+
+.forum_post_input
+{
+float:none;
+margin-left:auto;
+margin-right:auto;
+width:400px;
+}
+
+.forum_new_cat_form
+{
+background:#FFFFFF;
+width: 400px;
+border-top:#000000 1px solid;
+border-left:#000000 1px dashed;
+float:none;
+padding: 4px 4px 4px 4px;
+margin-top: 30px;
+}
+
+ul{
+margin:0 0 0 0 ;
+}
+
+
+.forum_delete_post{
+float:right;
+}
+
+
+.forum_small_post_container_tread
+{
+color: #FF0000;
+height: 20px;
+width:290px;
+overflow:hidden;
+background: #FFFFFF;
+}
+
+.forum_small_post_container_tread:hover
+{
+background: #FFFFAA;
+}
+
+.forum_small_post_container_post
+{
+color: #0000FF;
+height: 20px;
+width:290px;
+overflow:hidden;
+background: #FFFFFF;
+}
+
+.forum_small_post_container_post:hover
+{
+background: #CCFFFF;
+}
+
+.newestContainer
+{
+width:605px;
+float:left;
+margin-left:10px;
+/*border: 1px solid #000000;*/
+}
+
+.newestContainer td
+{
+border: 1px solid #000000;
+}
+
+/* BBCODE (codebox) */
+.codeBox {
+	background-color:#F5F5F5;
+	max-height: 400px;
+	width: 365px;
+	overflow: hidden;
+	margin-top:5px;
+	margin-bottom: 5px;
+	border: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+.codeTitle {
+	height: 20px;
+	float:left;
+	padding: 3px 3px 3px 3px;
+	border-bottom: 1px dashed black;
+	margin:0 0 0 0;
+	color: blue;
+}
+.code {
+	display: block;
+	overflow:auto;
+	max-height: 375px;
+	width: 365px;
+	padding: 0 0 0 0;
+}
+
+/* BBCODE SPOILER */
+.spoiler {
+	width: 379px;
+	background-color:#F3F3F3;
+	display:none;
+	padding: 3px 3px 3px 3px;
+	border: 1px dashed black;
+	margin-left: 5px;
+}

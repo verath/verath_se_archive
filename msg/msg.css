@@ -1,0 +1,49 @@
+ .msghead {
+   padding: 5px 5px 5px 5px;
+   font-size: 11px;
+   background: GreenYellow;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  border-bottom: dotted 2px White;
+}
+.msgbody {
+   padding: 5px 5px 5px 5px;
+   font-size: 11px;
+   background: Aquamarine;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.msg_container{
+float:left;
+width:310px;
+}
+.msg {
+   width:300px;
+   float:left;
+   margin: 0 5px 5px 0;
+   padding: 5px 5px 5px 5px;
+   font-size: 11px;
+   border: 1px solid #aacaaa;
+   background:#FCF256;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.msg_Read {
+   float:right;
+   width:340px;
+   margin: 0 5px 5px 0;
+   padding: 5px 5px 5px 5px;
+   font-size: 11px;
+   border: 2px dashed #FF3300;
+   background: #FFFF00;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.msg_Read_Container{
+float:right;;
+width:350px;
+}
+
+.sendMessage
+{
+border: none;
+padding: 2px 2px 2px 2px;
+}
